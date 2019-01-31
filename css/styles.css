@@ -1,0 +1,122 @@
+/* GLobal styles
+-------------------------*/
+
+/*color palette
+black - #000000
+white - #FCF7F8
+gray - #94979E
+blue - #1851A5
+crimson - #A51A1A
+
+*/
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+
+h1, h2 {
+    font-family: 'Krub', sans-serif;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 20px;
+    margin-top: 0px;
+}
+h3 {
+    margin: 0px;
+}
+
+a{
+    color: red;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: auto;
+}
+
+.col-narrow {
+    width: 30%;
+    float: left;
+}
+
+.col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* Header and footer
+-------------------------*/
+header, footer {
+    background: #A51A1A;
+    color: whitesmoke;
+}
+.profile-image {
+    height: 240px;
+    width: 200px;
+    border-radius: 10%;
+    border: 2px solid gray;
+}
+/* header */
+
+header h1, header h2 {
+    color: whitesmoke;
+    margin: 0;
+}
+/* footer */
+footer {
+    text-align: center;
+}
+.contact-info a {
+    
+    padding: 40px;
+    display: inline-block;
+}
+
+/* Work experience
+-------------------------*/
+.work {
+    background-color: whitesmoke;
+}
+
+h3 ~ p {
+    margin: 0px;
+    
+}
+.job-description {
+    margin-bottom: 25px;
+}
+.job-description p:first-of-type {
+    margin-top: 0px;
+}
+/* Education
+-------------------------*/
+.education {
+    background-color: whitesmoke;
+}
+
+p + h3 {
+    margin-top: 30px;
+}
