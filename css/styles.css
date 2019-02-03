@@ -109,11 +109,32 @@ footer {
     text-align: center;
 }
 .contact-info a {
-    
+    color: white;
     padding: 40px;
     display: inline-block;
+    text-decoration: none;
+    
 }
 
+.fas.fa-envelope {
+    font-size: 20px;
+    color: lightgrey;
+}
+
+.fas.fa-trophy {
+    font-size: 20px;
+    color: orange;
+}
+
+.fab.fa-github {
+    font-size: 20px;
+    color: black;
+}
+
+.fab.fa-linkedin {
+    font-size: 20px;
+    color: mediumblue;
+}
 /* Navigation
 -------------------------*/
 nav {
