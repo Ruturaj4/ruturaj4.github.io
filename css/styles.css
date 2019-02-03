@@ -48,7 +48,7 @@ a:hover {
 .content-wrap {
     max-width: 950px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 60px 50px;
     overflow: auto;
 }
 
@@ -67,17 +67,36 @@ a:hover {
     text-transform: uppercase;
 }
 
+.btn {
+    text-decoration: none;
+    background: white;
+    color: #A51A1A;
+    padding: 10px;
+    display: inline;
+    margin: 10px;
+}
+
 /* Header and footer
 -------------------------*/
 header, footer {
     background: #A51A1A;
     color: whitesmoke;
 }
+
+header {
+    padding-top: 50px;
+    position: relative;
+}
 .profile-image {
     height: 240px;
     width: 200px;
     border-radius: 10%;
     border: 2px solid gray;
+}
+.download {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 /* header */
 
@@ -93,6 +112,24 @@ footer {
     
     padding: 40px;
     display: inline-block;
+}
+
+/* Navigation
+-------------------------*/
+nav {
+    text-align: center;
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 /* Work experience
