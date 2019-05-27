@@ -122,8 +122,18 @@ footer {
 
 .fab.fa-linkedin {
     font-size: 20px;
-    color: mediumblue;
+    color: lightblue;
 }
+
+.fab.fa-medium {
+    font-size: 20px;
+    color: black;
+}
+.fab.fa-stack-overflow {
+    font-size: 20px;
+    color: darkorange;
+}
+
 /* Navigation
 -------------------------*/
 nav {
