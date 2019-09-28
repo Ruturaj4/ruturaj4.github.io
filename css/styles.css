@@ -178,6 +178,12 @@ p + h3 {
     margin-top: 30px;
 }
 
+/* Education
+-------------------------*/
+.publication {
+    background-color: whitesmoke;
+}
+
 /* Media queries
 -------------------------*/
 
